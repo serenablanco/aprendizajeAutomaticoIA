@@ -41,7 +41,7 @@ public class Modelo {
     {
         try {
             // create Random Forest
-            Classifier cls = new MultilayerPerceptron();
+            Classifier cls = new RandomForest();
 
             // train
             Instances inst = leerInstancias("./training_data/heart_failure.arff");
