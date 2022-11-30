@@ -41,5 +41,8 @@ Para elegir el mejor algoritmo me voy a fijar en el área ROC de cada uno. Cuant
 
 Por ello, el mejor algoritmo en este caso es el **Random Forest**.
 
+### 3. IMPLEMENTAR EL ALGORITMO ELEGIDO EN JAVA
+
+Tras modificar parte del código para que evalúe el fihcero .arff con el dataset que hemos descargado antes, ejecutamos el código y comprobamos que las consultas que lanzamos tienen buenos reseultados.
 
 
