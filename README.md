@@ -14,17 +14,27 @@ Para poder elegir el mejor algoritmo de aprendizaje automático para esta práct
 
 * **J48**
 
-  ![J48]()
+  ![J48](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/j48.png)
 
 * **Random Forest**
 
+  ![Random Forest](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/randomForest.png)
+
 * **Naive Bayes**
+
+  ![Naive Bayes](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/naivebayes.png)
 
 * **Multilayer Perceptron**
 
+  ![Multilayer Perceptron](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/multilayerperceptron.png)
+
 * **Hoeffding Tree**
 
+  ![Hoeffding Tree](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/hoeffdingTree.png)
+
 * **Decision Stump**
+
+  ![Decision Stump](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/decisionStump.png)
 
 
 Para elegir el mejor algoritmo me voy a fijar en el área ROC de cada uno. Cuanto mayor sea esta área, mejor será el algoritmo ya que significa que pueden aumentar mucho los verdaderos positivos con muy pocos falsos positivos.
