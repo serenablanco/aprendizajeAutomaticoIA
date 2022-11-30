@@ -60,6 +60,16 @@ Comparamos el resultado que nos aporta el algoritmo Random Forest con los datos 
   
 Vemos que el algoritmo nos devuelve los mismos resultados (nos acordamos que '0' representa a un corazón sano y que '1' representa la insuficiencia cardiaca).
 
+* **CONSULTA 2**
+Para esta segunda consulta he cogido otros 10 registros del dataset, reemplazando de nuevo el último atributo por una interrogación, para comprobar que el algoritmo funciona para distintas consultas y que el resultado cambia. La consulta es la siguiente:
+
+  ![consulta2](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/consulta2.png)
+  
+Comparamos el resultado de esta consulta con los datos verdaderos en nuestro fichero .arff:
+
+  ![resultadoconsulta2](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/resultadoConsulta2.png)  ![datosVerdaderosconsulta2](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/datosVerdaderosConsulta2.png)
+  
+Vemos que, de nuevo, el algoritmo nos devuelve los datos correctos y que no se vuelve a repetir el resultado de la primera consulta.
 
 
 
