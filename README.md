@@ -24,3 +24,10 @@ Para poder elegir el mejor algoritmo de aprendizaje automático para esta práct
 
 * **Decision Stump**
 
+
+Para elegir el mejor algoritmo me voy a fijar en el área ROC de cada uno. Cuanto mayor sea esta área, mejor será el algoritmo ya que significa que pueden aumentar mucho los verdaderos positivos con muy pocos falsos positivos.
+
+Por ello, el mejor algoritmo en este caso es el Random Forest.
+
+
+
