@@ -7,6 +7,10 @@ https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
 Este dataset cuenta con 12 atributos. Me han parecido un buen número de atributos y todos ellos contribuyen a la predicción (son características relevantes), por lo que he decidido no eliminar ningún atributo.
 
+  ![Dataset](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/atributosDataset.png)
+  
+El atributo para el que nosotros vamos a implemnetar el algoritmo es el atributo 'heartDisease', el cual indica si la persona tiene una enfermedad de corazón (se indica con un 1) o si su corazón está sano (se indica con un 0).
+
 Después, he convertido el archivo original en un archivo .arff para poder examinarlo en WEKA y evaluar los distintos algoritmos de aprendizaje automático para elegir la mejor opción para este caso.
 
 ### 2. EVALUAR LOS DISTINTOS ALGORITMOS DE APRENDIZAJE AUTOMÁTICO CON WEKA
@@ -44,5 +48,22 @@ Por ello, el mejor algoritmo en este caso es el **Random Forest**.
 ### 3. IMPLEMENTAR EL ALGORITMO ELEGIDO EN JAVA
 
 Tras modificar parte del código para que evalúe el fihcero .arff con el dataset que hemos descargado antes, ejecutamos el código y comprobamos que las consultas que lanzamos tienen buenos reseultados.
+
+* **CONSULTA 1**
+Para esta primera consulta he cogido los 10 primeros registros del dataset y he reemplazado el último atributo ('heartDisease') por una interrogación '?' para consultar cuál sería el resultado.
+
+  ![consulta1](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/consulta1.png)
+  
+Comparamos el resultado que nos aporta el algoritmo Random Forest con los datos iniciales verdaderos que tenemos en el fichero .arff:
+
+  ![resultadoConsulta1](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/resultadoConsulta1.png) ![datosVerdaderosCons1](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/datosVerdaderosConsulta1.png)
+  
+Vemos que el algoritmo nos devuelve los mismos resultados (nos acordamos que '0' representa a un corazón sano y que '1' representa la insuficiencia cardiaca).
+
+
+
+
+
+
 
 
