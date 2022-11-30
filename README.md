@@ -14,6 +14,8 @@ Para poder elegir el mejor algoritmo de aprendizaje automático para esta práct
 
 * **J48**
 
+  ![J48]()
+
 * **Random Forest**
 
 * **Naive Bayes**
