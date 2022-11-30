@@ -63,7 +63,7 @@ public class Modelo {
             String[] valoresAtributos = {"sano", "insuficiencia cardiaca"};
             Classifier clasificador  = (Classifier) weka.core.SerializationHelper.read("./models/objetoRandomForest.model");
             //Instances data = leerInstancias("./test_data/test.arff");
-            Instances data = leerInstancias("./training_data/heart_failure.arff");
+            Instances data = leerInstancias("./test_data/test.arff");
 
             StringBuilder sb = new StringBuilder();
             for(int i = 0; i < 10; i++) sb.append(valoresAtributos[(int) clasificador.classifyInstance(data.instance(i))] + "\n");
