@@ -78,7 +78,7 @@ Para esta tercera consulta, me he inventado los datos de las consultas para comp
   
 Los resultados de esta consulta son:
 
-  ![resultadosconsulta2](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/resultadoConsulta2.png)
+  ![resultadosconsulta2](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/resultadoConsulta3.png)
 
 
 
