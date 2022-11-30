@@ -71,6 +71,15 @@ Comparamos el resultado de esta consulta con los datos verdaderos en nuestro fic
   
 Vemos que, de nuevo, el algoritmo nos devuelve los datos correctos y que no se vuelve a repetir el resultado de la primera consulta.
 
+* **CONSULTA 3**
+Para esta tercera consulta, me he inventado los datos de las consultas para comprobar que los resultados varían y no siempre son los mismos. La consulta es la siguiente:
+
+  ![consulta3](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/consulta3.png)
+  
+Los resultados de esta consulta son:
+
+  ![resultadosconsulta2](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/resultadoConsulta2.png)
+
 
 
 
