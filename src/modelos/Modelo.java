@@ -27,7 +27,7 @@ public class Modelo {
 
     private Instances leerInstancias(String ficherArff){
         try{
-            Instances inst = new Instances(new BufferedReader(new FileReader("./training_data/heart_failure.arff")));
+            Instances inst = new Instances(new BufferedReader(new FileReader(ficherArff)));
             inst.setClassIndex(inst.numAttributes() - 1);
 
             return inst;    
@@ -62,7 +62,7 @@ public class Modelo {
         try{
             String[] valoresAtributos = {"sano", "insuficiencia cardiaca"};
             Classifier clasificador  = (Classifier) weka.core.SerializationHelper.read("./models/objetoRandomForest.model");
-            Instances data = leerInstancias("./test_data/consulta2.arff");
+            Instances data = leerInstancias("./test_data/consulta1.arff");
 
             StringBuilder sb = new StringBuilder();
             for(int i = 0; i < 10; i++) sb.append(valoresAtributos[(int) clasificador.classifyInstance(data.instance(i))] + "\n");
