@@ -12,15 +12,15 @@ Después, he convertido el archivo original en un archivo .arff para poder exami
 ### 2. EVALUAR LOS DISTINTOS ALGORITMOS DE APRENDIZAJE AUTOMÁTICO CON WEKA
 Para poder elegir el mejor algoritmo de aprendizaje automático para esta práctica, he cargado mi archivo .arff a WEKA y he observado los diferentes resultados de cada uno de ellos.
 
-#### J48
+* **J48**
 
-#### Random Forest
+* **Random Forest**
 
-#### Naive Bayes
+* **Naive Bayes**
 
-#### MultilayerPerceptron
+* **Multilayer Perceptron**
 
-#### Hoeffding Tree
+* **Hoeffding Tree**
 
-#### Decision Stump
+* **Decision Stump**
 
