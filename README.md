@@ -67,7 +67,7 @@ Para esta segunda consulta he cogido otros 10 registros del dataset, reemplazand
   
 Comparamos el resultado de esta consulta con los datos verdaderos en nuestro fichero .arff:
 
-  ![resultadoconsulta2](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/resultadoConsulta.png) ![datosVerdaderosconsulta2](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/datosVerdaderosConsulta2.png)
+  ![resultadoconsulta2](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/resultadoConsulta2.png) ![datosVerdaderosconsulta2](https://github.com/serenablanco/aprendizajeAutomaticoIA/blob/main/img/datosVerdaderosConsulta2.png)
   
 Vemos que, de nuevo, el algoritmo nos devuelve los datos correctos y que no se vuelve a repetir el resultado de la primera consulta.
 
