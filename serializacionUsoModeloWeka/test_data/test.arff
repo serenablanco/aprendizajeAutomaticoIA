@@ -1,0 +1,16 @@
+@relation heart_failure
+@attribute 'Age' numeric
+@attribute 'Sex' {M,F}
+@attribute 'ChestPainType' {ATA,NAP,ASY,TA}
+@attribute 'RestingBP' numeric
+@attribute 'Cholesterol' numeric
+@attribute 'FastingBS' {0, 1}
+@attribute 'RestingECG' {LVH, Normal, ST}
+@attribute 'MaxHR' numeric
+@attribute 'ExerciseAngina' {N,Y}
+@attribute 'Oldpeak' numeric
+@attribute 'ST_Slope' {Down, Up, Flat}
+@attribute 'HeartDisease' {0, 1}
+@data
+
+asfafasf`asdfa àasdfas $$ @ sdfsfgsdf adsfasdf
