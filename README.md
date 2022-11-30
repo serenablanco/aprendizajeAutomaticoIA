@@ -10,3 +10,17 @@ Este dataset cuenta con 12 atributos. Me han parecido un buen número de atribut
 Después, he convertido el archivo original en un archivo .arff para poder examinarlo en WEKA y evaluar los distintos algoritmos de aprendizaje automático para elegir la mejor opción para este caso.
 
 ### 2. EVALUAR LOS DISTINTOS ALGORITMOS DE APRENDIZAJE AUTOMÁTICO CON WEKA
+Para poder elegir el mejor algoritmo de aprendizaje automático para esta práctica, he cargado mi archivo .arff a WEKA y he observado los diferentes resultados de cada uno de ellos.
+
+#### J48
+
+#### Random Forest
+
+#### Naive Bayes
+
+#### MultilayerPerceptron
+
+#### Hoeffding Tree
+
+#### Decision Stump
+
