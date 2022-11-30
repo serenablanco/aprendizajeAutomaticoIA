@@ -1,0 +1,26 @@
+@relation heart_failure
+@attribute 'Age' numeric
+@attribute 'Sex' {M,F}
+@attribute 'ChestPainType' {ATA,NAP,ASY,TA}
+@attribute 'RestingBP' numeric
+@attribute 'Cholesterol' numeric
+@attribute 'FastingBS' {0, 1}
+@attribute 'RestingECG' {LVH, Normal, ST}
+@attribute 'MaxHR' numeric
+@attribute 'ExerciseAngina' {N,Y}
+@attribute 'Oldpeak' numeric
+@attribute 'ST_Slope' {Down, Up, Flat}
+@attribute 'HeartDisease' {0, 1}
+@data
+
+50,F,ASY,100,200,0,LVH,110,N,2,Flat,?
+25,M,ATA,120,207,0,Normal,150,N,2,Flat,?
+63,F,TA,150,283,0,LVH,142,N,0,Up,?
+44,M,ATA,120,184,0,Normal,142,N,1,Flat,?
+49,F,ATA,124,201,0,Normal,164,N,0,Up,?
+44,M,ATA,150,288,0,LVH,150,Y,3,Flat,?
+70,F,NAP,130,215,0,LVH,138,Y,0,Up,?
+33,F,ATA,154,260,0,ST,112,Y,3,Flat,?
+83,F,ASY,154,260,0,ST,112,Y,3,Flat,?
+72,M,ATA,120,284,0,LVH,118,N,0,Up,?
+
